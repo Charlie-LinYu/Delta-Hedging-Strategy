@@ -1,7 +1,7 @@
 #include "GetOption.h"
 #include <iostream>
-#include <new>
-using namespace std;
+//#include <new>
+//using namespace std;
 
 std::map<std::string, Option*> GetOption(Option *tmp_opt, double strike, std::map<std::string, 
 	double>& stock, double time, std::map<std::string, double>& interest, 
